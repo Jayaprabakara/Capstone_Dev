@@ -1,0 +1,8 @@
+version: '2'
+services:
+  devlop:
+    image: develop:v1
+    container_name: development
+    ports:
+      - "80:3000"
+   
