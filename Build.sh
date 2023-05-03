@@ -1,2 +1,6 @@
 #!/bin/bash
-docker build -t develop:v1 .
+
+apt-get update&& apt install docker.io -y
+docker --version
+docker build -t reactapp:latest .
+docker images
